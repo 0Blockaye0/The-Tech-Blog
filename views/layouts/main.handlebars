@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
     <div class="wrapper">
     <header>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
+        <a href="/dashboard" class="greenlinks">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
       </nav>
       <h1>
-        <a href="/">The Tech Blog</a>
+        <a href="/" class="homelink">The Tech Blog</a>
       </h1>
     </header>
     <main>
