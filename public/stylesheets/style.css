@@ -1,28 +1,51 @@
 * {
     box-sizing: border-box;
 }  
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+}
   
 body, html {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  background-color: rgb(161, 189, 167);
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: black;
+  display: grid;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color:rgb(255, 255, 255);
   font-weight: bold;
   transition: color .1s;
 }
 
+.greenlinks {
+  color: white;
+}
+
 a:hover {
-  color: #3486eb;
+  color: rgb(32, 110, 49);
+}
+
+h1 {
+  background-color: rgb(161, 189, 167);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 8px 15px;
+  box-shadow: 8px 8px grey;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #000000;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +56,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color:rgb(32, 110, 49);
 }
 
 .post-list {
@@ -49,10 +72,46 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid rgb(32, 110, 49);;
 }
 
 textarea {
   min-width: 40%;
   min-height: 100px;
+}
+
+.post {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.title {
+  background-color: black;
+  color: rgb(228, 228, 228);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.homelink {
+  color: #000000;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  text-align: center;           /* Footer height */
+}
+
+#createNewPostBtn {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: grid;
 }
