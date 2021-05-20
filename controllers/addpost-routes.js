@@ -3,8 +3,7 @@ const router = require("express").Router();
 const { Post, User } = require("../models");
 const withAuth = require("../utils/auth");
 
-router
-  .get("/", withAuth, (req, res) => {
+router.get("/", withAuth, (req, res) => {
     res.render("add-post", { loggedIn: true });
   })
 //   .catch((err) => {
