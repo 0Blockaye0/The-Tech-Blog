@@ -10,7 +10,6 @@ router.get("/", (req, res) => {
       order: [["created_at", "DESC"]],
       attributes: [
         "id",
-        "post_url",
         "title",
         "post_content",
         "created_at",
@@ -85,7 +84,7 @@ router.post("/", withAuth, (req, res) => {
     Post.create({
         title: req.body.title,
         post_content: req.body.post_content,
-        post_url: req.body.post_url,
+        // post_url: req.body.post_url,
         user_id: req.session.user_id,
     })
     .then((dbPostData) => res.json(dbPostData))
