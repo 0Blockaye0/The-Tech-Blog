@@ -30,6 +30,7 @@ a {
 
 .greenlinks {
   color: white;
+  padding: 1%;
 }
 
 a:hover {
@@ -122,6 +123,7 @@ footer {
   width: 75%;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 5%;
 }
 
 main {
@@ -204,6 +206,56 @@ ol {
   margin-bottom: 2%;
   margin-top: 2%;
 }
+
+#post-ttile {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post-content {
+  width: 95%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#createPostSubBtn {
+  width: 92%;
+  margin-left: 3%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+#editPostTextbx {
+  width: 95%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#saveEditbtn {
+  width: 92%;
+  margin-left: 3%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+#deleteEditbtn {
+  width: 92%;
+  margin-left: 3%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/* #createPostHeader {
+
+} */
+
+
 /* .signup-form {
   border: 3px solid black;
   margin: 10%;
