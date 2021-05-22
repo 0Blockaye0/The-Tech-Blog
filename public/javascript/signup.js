@@ -25,15 +25,6 @@ async function signupFormHandler(event) {
   }
 }
 
-async function signupRedirect(event) {
-  event.preventDefault();
-  document.location.replace("/signup/");
-}
-
 document
-  .querySelector("#signupLinkBtn")
-  .addEventListener("click", signupRedirect);
-
-document
-  .querySelector("signup-form")
+  .querySelector(".signup-form")
   .addEventListener("submit", signupFormHandler);

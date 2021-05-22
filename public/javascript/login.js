@@ -23,6 +23,15 @@ async function loginFormHandler(event) {
   }
 }
 
+async function signupRedirect(event) {
+  event.preventDefault();
+  document.location.replace("/signup/");
+}
+
+document
+  .querySelector("#signupLinkBtn")
+  .addEventListener("click", signupRedirect);
+
 document
   .querySelector(".login-form")
   .addEventListener("submit", loginFormHandler);
