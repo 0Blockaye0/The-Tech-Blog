@@ -4,14 +4,12 @@ const apiRoutes = require('./api');
 const homeRoutes = require('./home-routes');
 const dashboardRoutes = require('./dashboard-routes');
 const addpostRoutes = require('./addpost-routes');
+const signupRoutes = require('./signup-routes');
 
-// router.use('/addpost', addpostRoutes);
+
 router.use('/dashboard', dashboardRoutes);
 router.use('/', homeRoutes);
 router.use('/api', apiRoutes);
 router.use('/addPost', addpostRoutes);
-router.use((req, res) => {
-  res.status(404).end();
-});
-
+router.use('/signup', signupRoutes);
 module.exports = router;
