@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }  
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
 .wrapper {
   position: relative;
   min-height: 100vh;
@@ -26,11 +32,12 @@ a {
   color:rgb(255, 255, 255);
   font-weight: bold;
   transition: color .1s;
+  margin-top: 3%;
 }
 
 .greenlinks {
   color: white;
-  padding: 1%;
+  /* padding: 1%; */
 }
 
 a:hover {
@@ -58,6 +65,7 @@ button {
   transition: background-color .1s;
   cursor: pointer;
   border-radius: 5px;
+  margin-top: 2%;
 }
 
 button:hover {
@@ -97,6 +105,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-left: 3%;
 }
 
 .homelink {
@@ -251,6 +260,9 @@ ol {
   margin-top: 2%;
 }
 
+#theTechBlog {
+  margin-left: 3%;
+}
 /* #createPostHeader {
 
 } */

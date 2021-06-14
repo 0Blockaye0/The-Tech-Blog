@@ -13,12 +13,15 @@
       <nav>
         {{#if loggedIn}}
         <a href="/dashboard" class="greenlinks">dashboard</a>
+        <a href="/" class="greenlinks">Home</a>
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
+         <a href="/dashboard" class="greenlinks">dashboard</a>
+        <a href="/" class="greenlinks">Home</a>
         <a href="/login">login</a>
         {{/if}}
       </nav>
-      <h1>
+      <h1 id="theTechBlog">
         <a href="/" class="homelink">The Tech Blog</a>
       </h1>
     </header>
