@@ -29,8 +29,7 @@
   ## Usage
 
   
-
-  ![screenshot](/assets/images/screenshot.png)
+![screenshot](/assets/images/screenshot.png)
 
 
   ## Credits
