@@ -27,10 +27,12 @@
 
 
   ## Usage
-
+<!-- 
   ![screenshot](/assets/images/screenshot.png)
   
-  /Users/blakejohnson/UT-BOOTCAMP/The-Tech-Blog/assets/screenshot.png
+  /Users/blakejohnson/UT-BOOTCAMP/The-Tech-Blog/assets/screenshot.png -->
+  
+  ![image](/Users/blakejohnson/UT-BOOTCAMP/The-Tech-Blog/assets/screenshot.png)
 
 
   ## Credits
