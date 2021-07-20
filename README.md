@@ -32,7 +32,7 @@
   
   /Users/blakejohnson/UT-BOOTCAMP/The-Tech-Blog/assets/screenshot.png -->
   
-  ![image](/Users/blakejohnson/UT-BOOTCAMP/The-Tech-Blog/assets/screenshot.png)
+  ![image](/assets/screenshot.png)
 
 
   ## Credits
